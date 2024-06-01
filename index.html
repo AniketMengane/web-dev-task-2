@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Launch Event</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero-section">
+        <div class="overlay"></div>
+        <nav>
+            <h1>CarBrand</h1>
+            <ul>
+                <li><a href="#details">Details</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <!-- <li><a href="#specs">Specifications</a></li> -->
+                <li><a href="#container">Reserve Now</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h2>Introducing the All-New Model X</h2>
+            <p>Experience the future of driving.</p>
+            <a href="#container" class="btn">Reserve Yours Now</a>
+        </div>
+    </header>
+
+    <section id="details" class="details-section">
+        <h2>Details</h2>
+        <p>The Model X offers unparalleled performance and cutting-edge technology...</p>
+        <h1>Car Name  : Verna</h1>
+        <h1>Body Style:Sedan</h1>
+        <h1>Number Of Doors:4</h1>
+        <h1>Cargo Volume:520L</h1>
+        <h1>Engine Cylinder Configuration:Straight Engine</h1>
+
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="img/imgcar4.jpg" alt="Car Image 1">
+            <!-- <img src="img/verna1.jpg" alt="Car Image 2"> -->
+            <img src="img/verna2.webp" alt="Car Image 3"> 
+           
+        </div>
+       
+    </section>
+   
+<body>  
+    <form id="container">  
+      <div class="container">  
+      <center>  <h1> Registeration Form</h1> </center>  
+      <hr>  
+      <label>Name </label>   
+    <input type="text" name="name" placeholder= "name" size="15" required />   
+    
+    <div>  
+    <label>   
+    Gender :  
+    </label><br>  
+    <input type="radio" value="Male" name="gender" checked > Male   
+    <input type="radio" value="Female" name="gender"> Female   
+    <input type="radio" value="Other" name="gender"> Other  
+      
+    </div>  
+    <label>   
+    Phone :  
+    </label>  
+    <input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+    <input type="text" name="phone" placeholder="phone no." size="10" required>   
+    Current Address :  
+    <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+    </textarea>  
+     <label for="email"><b>Email</b></label>  
+     <input type="text" placeholder="Enter Email" name="email" required>  
+      
+        <label for="psw"><b>Password</b></label>  
+        <input type="password" placeholder="Enter Password" name="psw" required>  
+      
+        <label for="psw-repeat"><b>Re-type Password</b></label>  
+        <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+        <button type="submit" class="registerbtn">Register</button>    
+    </form>  
+    </body>  
+
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
